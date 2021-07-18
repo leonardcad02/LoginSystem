@@ -2,9 +2,9 @@
   "name": "LoginSystem",
   "version": "1.0.0",
   "description": "Create system Login with Passport.Js Autehtication",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/leonardcad02/LoginSystem/issues"
   },
-  "homepage": "https://github.com/leonardcad02/LoginSystem#readme"
+  "homepage": "https://github.com/leonardcad02/LoginSystem#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1"
+  }
 }
