@@ -8,15 +8,14 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
 }
-
-.wave{
+.fondo{
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	height: 100%;
+    width: 100%;
 	z-index: -1;
 }
-
 .container{
     width: 100vw;
     height: 100vh;
@@ -25,6 +24,7 @@ body{
     grid-gap :7rem;
     padding: 0 2rem;
 }
+
 
 .img{
 	display: flex;
@@ -50,6 +50,8 @@ form{
 .login-content img{
     height: 100px;
 }
+
+
 
 .login-content h2{
 	margin: 15px 0;
@@ -103,7 +105,7 @@ form{
 	bottom: -2px;
 	width: 0%;
 	height: 2px;
-	background-color: #38d39f;
+	background-color: #d0df4ed8;
 	transition: .4s;
 }
 
@@ -125,7 +127,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #38d39f;
+	color: #d0df4ed8;
 }
 
 .input-div > div > input{
@@ -154,7 +156,7 @@ form{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-image: linear-gradient(to right, #d0df4ed8, #d0df4ed8, #d0df4ed8);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
