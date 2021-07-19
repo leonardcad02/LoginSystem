@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="styleshee">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,11 +14,32 @@
 
     </header>
     <section>
-        <form action="/login" method="POST">
-            <input type="text" name="username" id="">
-            <input type="password" name="password" id="">
-            <input type="submit" value="Enviar">
-        </form>
+        <div class="container">
+            <div class="img">
+                <img src="img/pizza.png" >
+            </div>             
+        <div class="login-container">            
+            <form action="/login" method="POST">
+                <img src= "img/avatar.png" alt="Profile">
+                <h2>Welcome</h2>
+                <div class="input-div">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h5>username</h5>
+                    <input class = "input" type="text" name="username" id="">
+                </div>                
+                <div class="input-div">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h5>Password</h5>
+                    <input class = "input" type="password" name="Password" id="">
+                </div> 
+                <input type="submit"  class ="btn" value="Login">
+            </form>
+        </div>
+     </div>        
     </section>
 </body>
 </html>

@@ -41,7 +41,9 @@ passport.deserializeUser(function(id,done){
 });
 
 
+
 app.set('view engine', 'ejs')
+app.use(express.static("views"));
 
 app.get("/",(req, res, next)=>{
     if(req.isAuthenticated()) return next();
