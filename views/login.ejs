@@ -9,37 +9,39 @@
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <header>
+<body>   
+    <img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/pizza.svg">
+		</div>
+		<div class="login-content">
+			<form action="/login" method="POST">
+				<img src="img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input" name="username">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input" name="password" >
+            	   </div>
+            	</div>
 
-    </header>
-    <section>
-        <div class="container">
-            <div class="img">
-                <img src="img/pizza.png" >
-            </div>             
-        <div class="login-container">            
-            <form action="/login" method="POST">
-                <img src= "img/avatar.png" alt="Profile">
-                <h2>Welcome</h2>
-                <div class="input-div">
-                    <div class="i">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <h5>username</h5>
-                    <input class = "input" type="text" name="username" id="">
-                </div>                
-                <div class="input-div">
-                    <div class="i">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <h5>Password</h5>
-                    <input class = "input" type="password" name="Password" id="">
-                </div> 
-                <input type="submit"  class ="btn" value="Login">
+            	<input type="submit" class="btn" value="Login">
             </form>
         </div>
-     </div>        
-    </section>
+    </div>
+    <script src="js/main.js"></script>       
 </body>
 </html>
